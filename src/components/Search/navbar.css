@@ -1,0 +1,70 @@
+.container
+{
+    height: 65px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.input_section
+{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    padding: 0px;
+    gap: 8px;
+}
+
+.logo
+{
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    left: 10%;
+    top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .input_section
+    {
+        width: 95%;
+    }   
+    .logo
+    {
+        position: absolute;
+        width: 0px;
+        height: 0px;
+    }
+}
+
+
+.search_btn
+{
+    padding: 10px 20px;
+    gap: 8px;
+    width: 112px;
+    height: 44px;
+    border: 1px solid #1F5CF1;
+    color: #1F5CF1;
+    background-color: white;
+    border-radius: 8px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 18px;
+}
+.search_btn:hover
+{
+    background-color: #1F5CF1;
+    color: white;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.divider
+{
+    position: absolute;
+    width: 99.9%;
+    top: 75px;
+    margin: 0;
+   
+}
+

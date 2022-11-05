@@ -1,0 +1,40 @@
+.cards_container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.add_button
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 5vw;
+    bottom: 5vh;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 50%;
+    font-size: 30px;
+    color: black;
+    border: 1px solid black;
+}
+.add_button:hover
+{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 1024px) {
+    .cards_container
+    {
+        justify-content: center;
+    }   
+
+}
+
